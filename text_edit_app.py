@@ -34,7 +34,7 @@ file_menu.add_command(label="Save",command=save_file)
 file_menu.add_separator()
 file_menu.add_command(label="Exit" , command=root.quit)
 
-text = tk.Text(root , wrap=tk.WORD , font = ("Helvetica" , 24) , fg = "white")
+text = tk.Text(root , wrap=tk.WORD , font = ("Helvetica" , 24) , fg = "black")
 text.pack(expand=tk.YES , fill = tk.BOTH)
 
 root.mainloop() # this shows window on screen
